@@ -1,0 +1,455 @@
+.bg1 {
+	height: 43vw;
+	background: url("assest/BG.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+}
+
+.mainG {
+	height: auto;
+	overflow: hidden;
+	margin: 0px auto;
+	padding: 3vw 1vw 1vw 1vw;
+	margin-bottom: 5vw;
+}
+.Mpoo {
+	border-bottom:0px !important;
+}
+.mapf {
+	height: 20vw; background: #E84547; background-image: url("assest/iOS7map.jpg"); background-size: cover; background-repeat: no-repeat;
+}
+.ps1 {
+	margin-top:-2vw;
+	margin-bottom: 2vw;
+}
+
+.usern {
+	font-weight: 700;
+	margin-bottom: 3vw;
+	cursor: pointer;
+	font-size: 2vw !important;
+}
+.usern:hover {
+	color: #FF0004
+}
+.socialM {
+	margin-top:5vw; border-bottom: 1px solid #D0D0D0; height: auto; overflow: hidden; padding-bottom: 3vw; padding-top: 8vw; padding-right: 2vw;
+}
+.fotter {
+	height: auto; overflow: hidden; padding-bottom: 3vw; padding-top:5vw;
+}
+.TTop {
+	height: 3vw;
+}
+
+.ppost {
+	margin-right: 1vw;
+}
+
+a {
+	color: #fff;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.modal-content {
+	border: 0px;
+}
+
+.Mpost {
+	min-height: 30vw;
+	height: auto;
+	overflow: hidden;
+	margin-top: 8vw;
+	border-radius: 0.2vw;
+	background: #FFFFFF;
+	-webkit-box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.17);
+	box-shadow: 0px 0px 15px -1px rgba(0,0,0,0.17);
+	padding: 10px 20px 10px 20px;
+}
+
+.loginbtn {
+	background: #FFFFFF;
+	font-size: 1vw;
+	padding: 0.3vw 1vw 0.3vw 1vw;
+}
+
+.MpostM {
+	height: auto;
+	overflow: hidden;
+	border-bottom: 1px solid #DBDBDB;
+	padding: 2vw 0.5vw 2vw 0.5vw;
+}
+
+.btnP {
+	margin-left: 0.5vw;
+	border: 0;
+	font-size: 1vw;
+}
+
+.btnP1 {
+	background: #5E72E4;
+}
+
+.btnP2 {
+	background: #2DCE89;
+}
+
+.btnP3 {
+	background: #FB6340;
+}
+
+.posttitle {
+	padding: 0.2vw;
+	font-size: 1.1vw;
+	color: #32325D;
+}
+
+.postid {
+	padding: 0.2vw;
+	font-size: 1.2vw;
+	font-weight: 600;
+	margin-right: 1vw;
+}
+
+.col-12, .col-sm-5 {
+	padding: 0px;
+}
+
+.BText1 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 33px;
+	letter-spacing: -0.45px;
+	color: #00CDAC;
+}
+
+.Btext2 {
+	ont-size: 22px;
+	line-height: 26px;
+	color: #32325D;
+}
+
+.MbodyM {
+	min-height: 10vw;
+}
+
+.closebtn {
+	width: 2vw;
+	cursor: pointer;
+}
+
+.editM {
+	position: fixed;
+	left: 28%;
+	right: 29%;
+	top: 30%;
+	height: auto;
+	overflow: hidden;
+	z-index: 1000;
+	padding-bottom: 1vw;
+	background: #FFFFFF;
+	box-shadow: -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.05);
+	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.05);
+	border-radius: 4px;
+	display: none;
+}
+
+.Delete1 {
+	position: fixed;
+	left: 28%;
+	right: 29%;
+	top: 30%;
+	height: auto;
+	overflow: hidden;
+	z-index: 1000;
+	padding-bottom: 1vw;
+	background: #FFFFFF;
+	box-shadow: -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.05);
+	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.05);
+	border-radius: 4px;
+	display: none;
+	padding: 2vw;
+}
+
+.bts {
+	max-width: 4.5vw;
+}
+
+.MtopH {
+	height: 4vw;
+	border-bottom: 1px solid #CBCBCB;
+	padding: 1vw;
+}
+
+.MtopT {
+	font-size: 1.2vw;
+}
+
+.wrapper {
+	-webkit-transform: translateZ(0);
+	-webkit-font-smoothing: antialiased;
+}
+
+.wrapper .tooltip {
+	background: #000;
+	bottom: 100%;
+	color: #fff;
+	display: block;
+	right: -20px;
+	margin-bottom: 15px;
+	opacity: 0;
+	padding: 20px;
+	pointer-events: none;
+	position: absolute;
+	width: 7vw;
+	z-index: 10;
+	font-size: 1vw;
+	-webkit-transform: translateY(10px);
+	-moz-transform: translateY(10px);
+	-ms-transform: translateY(10px);
+	-o-transform: translateY(10px);
+	transform: translateY(10px);
+	-webkit-transition: all .25s ease-out;
+	-moz-transition: all .25s ease-out;
+	-ms-transition: all .25s ease-out;
+	-o-transition: all .25s ease-out;
+	transition: all .25s ease-out;
+	-webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+	-moz-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+	-ms-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+	-o-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+	box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+}
+
+.tooltip1 {
+	margin-right: 4vw;
+}
+
+.tooltip2 {
+	margin-right: 9vw;
+}
+
+.tooltip3 {
+	margin-right: 14vw;
+}
+
+.wrapper .tooltip:before {
+	bottom: -20px;
+	content: " ";
+	display: block;
+	height: 20px;
+	left: 0;
+	position: absolute;
+	width: 100%;
+}
+
+/* CSS Triangles - see Trevor's post */
+.wrapper .tooltip:after {
+border-left: solid transparent 10px;
+border-right: solid transparent 10px;
+border-top: solid #000 10px;
+bottom: -10px;
+content: " ";
+height: 0;
+left: 50%;
+margin-left: -13px;
+position: absolute;
+width: 0;
+}
+
+.wrapper:hover .tooltip {
+opacity: 1;
+pointer-events: auto;
+-webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+   -o-transform: translateY(0px);
+    transform: translateY(0px);
+}
+
+
+		
+		
+		
+		
+		
+		
+		@media (max-width: 900px) {
+			.closebtn {
+			width: 3vw; 
+		}
+			
+			.MtopT {
+    font-size: 2vw;
+}
+			.MtopH	{
+			height: 6vw; 
+		}
+			
+			.editM {
+  
+    left: 15%;
+    right: 16%;
+   
+}
+			
+			.btnP {
+				width: 8vw;  font-size: 1.2vw; 
+			}
+		
+			
+			.posttitle {
+			font-size: 1.6vw;
+		}
+		.postid {
+			 			font-size: 2vw;  	
+
+
+		}
+			.Mpost {
+				padding: 10px 10px 10px 10px;
+		}
+			
+				.loginbtn {
+				width: 8vw;
+				height: 3.4vw;
+				font-size: 1.3vw;
+			}
+			
+			.mainG {
+			
+			padding: 3vw 2vw 2vw 2vw;
+			
+		}
+		
+		}
+		
+		
+		@media (max-width: 768px) {
+			
+			.btnP {
+				width: 9vw; margin-left:0.5vw; font-size: 1.5vw; 
+			}
+			
+			
+			.posttitle {
+			font-size: 2vw;
+		}
+		.postid {
+			 			font-size: 2.5vw;  margin-right: 1vw;		
+
+
+		}
+			.loginbtn {
+				width: 9vw;
+				height: 3.8vw;
+				font-size: 1.5vw;
+			}
+			.bts {
+			max-width: 10.5vw;
+		}	
+			
+		}
+		
+		
+		
+		@media (max-width: 576px) {
+			
+			
+			.usern {
+	
+	font-size: 5vw !important;
+}
+			.wrapper .tooltip {
+	top: 100%;
+	
+	padding: 20px;
+	right:-5px;
+	width: 18vw;
+				height: 10vw;
+	z-index: 10;
+	font-size: 2.5vw;
+	}
+			
+		.tooltip1 {
+	margin-right: 8vw;
+}
+
+.tooltip2 {
+	margin-right: 20vw;
+}
+
+.tooltip3 {
+	margin-right: 30vw;
+}
+	
+			
+			
+			.mainG {
+			
+			padding: 3vw;
+			
+		}
+			.bg1 {
+			height: 65vw; 
+			background:url("assest/BG.png");
+			background-size: cover;
+		}
+			
+			.MpostM {
+   
+    padding: 4vw 0.5vw 6vw 0.5vw;
+}
+			
+	.btnP {
+				width: 23.1vw; margin-left:1vw; font-size: 3.8vw; margin-top:3vw;
+		}
+			.posttitle {
+			padding: 0.2vw;
+			font-size: 4vw;
+		}
+	.postid {
+			padding: 0.2vw; 			
+			font-size: 4.5vw; font-weight: 600; margin-right: 1vw;		
+
+		}
+	.loginbtn {
+		width: 16vw;
+		height: 6.8vw;
+		font-size: 3.3vw;
+	}
+			
+	.editM {
+    left: 10%;
+    right: 10%;
+    top: 10%;
+}
+	.MtopH {
+    height: 10vw;
+}
+	.MtopT {
+    font-size: 4vw;
+}
+	.closebtn {
+    width: 6vw;
+}
+	.MbodyM {
+			min-height: 25vw;
+		}
+	.bts {
+			max-width: 12.5vw;
+		}	
+			
+		}
+		
+		
+		@media (max-width: 350px) {
+		
+		.ppost {
+				width: 40vw;
+			}
+			
+	}
